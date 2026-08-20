@@ -1,0 +1,25 @@
+# ============================================================
+# Dependencies - Klasifikasi Tingkat Kematangan Buah Pisang CNN
+# Python 3.10 - 3.12 disarankan (proyek ini diuji pada 3.12)
+# Instal: pip install -r requirements.txt
+# ============================================================
+#
+# VERSI DIKUNCI (pinned) dengan sengaja.
+# Alasan: berkas model .keras sensitif terhadap versi TensorFlow. Bila penguji
+# memasang TensorFlow versi lain, model bisa GAGAL dimuat dan demo sidang mati.
+# Versi di bawah adalah versi yang sudah diuji memuat model dan menjalankan
+# aplikasi sampai menghasilkan prediksi.
+
+tensorflow-cpu==2.21.0  # CNN / MobileNetV2 / Transfer Learning.
+                       	# Tanpa GPU boleh diganti: tensorflow-cpu==2.21.0
+                        # Catatan: TensorFlow tidak mendukung GPU di Windows
+                        # setelah versi 2.10 (gunakan CPU atau WSL2).
+streamlit==1.59.2       # Antarmuka web aplikasi
+numpy==2.4.4            # Operasi array numerik
+pillow==12.1.1          # Membaca & memproses citra (preprocessing prediksi)
+scikit-learn==1.8.0     # classification_report, confusion_matrix, class_weight
+
+# --- Hanya dibutuhkan untuk notebook training, bukan untuk menjalankan app.py ---
+pandas                 # Pengolahan data tabular (laporan/analisis)
+matplotlib             # Visualisasi kurva akurasi & loss
+seaborn                # Visualisasi confusion matrix

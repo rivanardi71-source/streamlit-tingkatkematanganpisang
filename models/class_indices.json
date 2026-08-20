@@ -1,0 +1,6 @@
+{
+  "busuk": 0,
+  "matang": 1,
+  "mentah": 2,
+  "terlalu_matang": 3
+}

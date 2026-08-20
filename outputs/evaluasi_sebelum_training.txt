@@ -1,0 +1,4 @@
+Evaluasi Baseline - Sebelum Pelatihan (data uji)
+Accuracy: 0.1548 (15.48%)
+Loss    : 2.0297
+Referensi ln(4): 1.3863

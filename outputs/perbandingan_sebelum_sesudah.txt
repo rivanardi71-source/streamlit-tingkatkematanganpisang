@@ -1,0 +1,7 @@
+Perbandingan Kinerja Sebelum vs Sesudah Pelatihan (data uji)
+
+Kondisi               Accuracy        Loss
+Sebelum training        15.48%      2.0297
+Sesudah training        97.86%      0.0718
+
+Peningkatan akurasi: +82.38 poin persen

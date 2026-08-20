@@ -1,0 +1,13 @@
+Classification Report - Klasifikasi Kematangan Buah Pisang
+Test accuracy: 0.9786 | Test loss: 0.0718
+
+                precision    recall  f1-score   support
+
+         busuk     0.9833    0.9568    0.9699       185
+        matang     0.9809    1.0000    0.9904       154
+        mentah     0.9730    0.9818    0.9774       110
+terlalu_matang     0.9737    0.9823    0.9780       113
+
+      accuracy                         0.9786       562
+     macro avg     0.9777    0.9802    0.9789       562
+  weighted avg     0.9787    0.9786    0.9786       562
